@@ -2,7 +2,7 @@ run:
     uv run python main.py
 
 test:
-    uv run python -m pytest test_main.py -v
+    uv run python -m pytest
 
 generate-gcmb-readmes:
     uv run python generate_gcmb_readmes.py
