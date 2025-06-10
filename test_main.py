@@ -1,6 +1,7 @@
 import pytest
-from unittest.mock import MagicMock
 from main import Adapter
+from utils.mock_mqtt_publisher import MockMqttPublisher
+
 
 @pytest.fixture
 def sample_api_data():
@@ -27,22 +28,27 @@ def sample_api_data():
 
 def test_publish_topics_correctly(sample_api_data):
     cities_data, lots_data = sample_api_data
-    api_client = MagicMock()
-    api_client.get_cities.return_value = cities_data['cities']
-    api_client.get_city_lots.return_value = lots_data
-    mqtt_publisher = MagicMock()
+    api_client = type('MockApiClient', (), {})()
+    api_client.get_cities = lambda: cities_data['cities']
+    api_client.get_city_lots = lambda city_key: lots_data
+    mqtt_publisher = MockMqttPublisher()
     base_topic = 'testorg/testproj'
     adapter = Adapter(base_topic, mqtt_publisher, api_client)
 
     adapter.run_once()
 
-    calls = mqtt_publisher.send_msg.call_args_list
-    # Check topic and payloads for scalar values
-    topics_payloads = [(c[0][1], c[0][0]) for c in calls if c[0][1].endswith(('free','total','state'))]
-    # Check JSON lot messages
-    json_lot_calls = [c for c in calls if c[0][1].endswith('/lot1') or c[0][1].endswith('/lot2')]
-    assert any('lot1' in c[0][1] for c in json_lot_calls)
-    assert any('lot2' in c[0][1] for c in json_lot_calls)
+    # Check per-lot topics
+    assert mqtt_publisher.get_payloads_by_topic(f'{base_topic}/TestCity/lot1/free') == ['5']
+    assert mqtt_publisher.get_payloads_by_topic(f'{base_topic}/TestCity/lot1/total') == ['10']
+    assert mqtt_publisher.get_payloads_by_topic(f'{base_topic}/TestCity/lot1/state') == ['open']
+    assert mqtt_publisher.get_payloads_by_topic(f'{base_topic}/TestCity/lot2/free') == ['2']
+    assert mqtt_publisher.get_payloads_by_topic(f'{base_topic}/TestCity/lot2/total') == ['5']
+    assert mqtt_publisher.get_payloads_by_topic(f'{base_topic}/TestCity/lot2/state') == ['closed']
     # Check aggregates
-    assert (f'{base_topic}/TestCity/free', '7') in topics_payloads
-    assert (f'{base_topic}/TestCity/total', '15') in topics_payloads
+    assert mqtt_publisher.get_payloads_by_topic(f'{base_topic}/TestCity/free') == ['7']
+    assert mqtt_publisher.get_payloads_by_topic(f'{base_topic}/TestCity/total') == ['15']
+    # Check lot JSON messages
+    lot1_msgs = mqtt_publisher.get_messages_by_topic(f'{base_topic}/TestCity/lot1')
+    lot2_msgs = mqtt_publisher.get_messages_by_topic(f'{base_topic}/TestCity/lot2')
+    assert len(lot1_msgs) == 1 and len(lot2_msgs) == 1
+    assert 'free' in lot1_msgs[0]['payload'] and 'free' in lot2_msgs[0]['payload']
