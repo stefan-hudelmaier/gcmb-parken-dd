@@ -100,8 +100,8 @@ topic: parkendd/parkendd/{city}/{lot_id}/free: Scalar value from property "free"
 topic: parkendd/parkendd/{city}/{lot_id}/total: Scalar value from property "total"
 topic: parkendd/parkendd/{city}/{lot_id}/state: Scalar value from property "state"
 topic: parkendd/parkendd/{city}/{lot_id}: The original JSON per lot
-topic: parkendd/parkendd/{city}/free: The aggregated free parking spaces in the city
-topic: parkendd/parkendd/{city}/total: The aggregated total parking spaces in the city
+topic: parkendd/parkendd/{city}/free: The aggregated * Free parking spaces in the city
+topic: parkendd/parkendd/{city}/total: The aggregated * Total parking spaces in the city
 
 topic-specific README.md are created:
 
@@ -118,8 +118,8 @@ List of cities:
 
 [Details](./{city})
 
-Total parking spaces: <Value topic="parkendd/parkendd/{city}/total" />
-Free parking spaces: <Value topic="parkendd/parkendd/{city}/free" />
+* Total parking spaces: <Value topic="parkendd/parkendd/{city}/total" />
+* Free parking spaces: <Value topic="parkendd/parkendd/{city}/free" />
 ```
 
 topic: parkendd/parkendd/{city}: Contents:
@@ -134,7 +134,7 @@ topic: parkendd/parkendd/{city}: Contents:
 
 ### {lot name}
 
-Total parking spaces: <Value topic="parkendd/parkendd/{city}/{lot_id}/total"/>
-Free parking spaces: <Value topic="parkendd/parkendd/{city}/{lot_id}/free"/>
+* Total parking spaces: <Value topic="parkendd/parkendd/{city}/{lot_id}/total"/>
+* Free parking spaces: <Value topic="parkendd/parkendd/{city}/{lot_id}/free"/>
 
 ```

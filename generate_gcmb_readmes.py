@@ -5,9 +5,9 @@ from api_client import ApiClient
 gcmb_dir = os.path.join(os.path.dirname(__file__), 'gcmb')
 
 CITY_README_TEMPLATE = '''# {city}\n\n## Lots\n\n{lots}\n'''
-LOT_TEMPLATE = '''### {lot_name}\n\nTotal parking spaces: <Value topic="{base_topic}/{city}/{lot_id}/total"/>\nFree parking spaces: <Value topic="{base_topic}/{city}/{lot_id}/free"/>\n'''
+LOT_TEMPLATE = '''### {lot_name}\n\n* Total parking spaces: <Value topic="{base_topic}/{city}/{lot_id}/total"/>\n* Free parking spaces: <Value topic="{base_topic}/{city}/{lot_id}/free"/>\n'''
 TOPIC_README_TEMPLATE = '''# Parken DD\n\nList of cities:\n\n{cities}\n'''
-CITY_LINK_TEMPLATE = '## {city}\n\n[Details](./{city})\n\nTotal parking spaces: <Value topic="{base_topic}/{city}/total"/>\nFree parking spaces: <Value topic="{base_topic}/{city}/free"/>\n'
+CITY_LINK_TEMPLATE = '## {city}\n\n[Details](./{city})\n\n* Total parking spaces: <Value topic="{base_topic}/{city}/total"/>\n* Free parking spaces: <Value topic="{base_topic}/{city}/free"/>\n'
 
 def ensure_dir(path):
     if not os.path.exists(path):

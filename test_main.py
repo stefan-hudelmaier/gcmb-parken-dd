@@ -52,3 +52,19 @@ def test_publish_topics_correctly(sample_api_data):
     lot2_msgs = mqtt_publisher.get_messages_by_topic(f'{base_topic}/TestCity/lot2')
     assert len(lot1_msgs) == 1 and len(lot2_msgs) == 1
     assert 'free' in lot1_msgs[0]['payload'] and 'free' in lot2_msgs[0]['payload']
+
+
+def test_publish_global_stats(sample_api_data):
+    cities_data, lots_data = sample_api_data
+    api_client = type('MockApiClient', (), {})()
+    api_client.get_cities = lambda: cities_data['cities']
+    api_client.get_city_lots = lambda city_key: lots_data
+    mqtt_publisher = MockMqttPublisher()
+    base_topic = 'testorg/testproj'
+    adapter = Adapter(base_topic, mqtt_publisher, api_client)
+
+    adapter.run_once()
+
+    # Global stats should be sum of all city stats (in this test, only one city)
+    assert mqtt_publisher.get_payloads_by_topic(f'{base_topic}/stats/free') == ['7']
+    assert mqtt_publisher.get_payloads_by_topic(f'{base_topic}/stats/total') == ['15']
