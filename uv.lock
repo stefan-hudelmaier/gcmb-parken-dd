@@ -56,14 +56,14 @@ wheels = [
 
 [[package]]
 name = "gcmb-publisher"
-version = "0.5.0"
+version = "0.5.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "paho-mqtt" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f4/87/4ed4251002b4a1691f0b4d503e35abb71a83882425b9faf5ad840026309d/gcmb_publisher-0.5.0.tar.gz", hash = "sha256:e25bffe902aa6025b9c16ebb2374bcb1b0ad71e7c33b3a22951db5fc82d6b33f", size = 2640 }
+sdist = { url = "https://files.pythonhosted.org/packages/46/d2/9aa8babfd5d22173898f3243cd9f4dd7deceb23257da7f9008e63e5d08fd/gcmb_publisher-0.5.2.tar.gz", hash = "sha256:3744aaf4e2c3660e01a031c248aeed6661f3080cc633d08c92cd559cda3a10de", size = 2859 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e2/00/8f6c2a00287c212127e2e843fbd43e0b7659068a5885f73306841cb599e5/gcmb_publisher-0.5.0-py3-none-any.whl", hash = "sha256:285409bdfdbcde9d0d3fd9a4bb2824c326517dda43f134821b8f55649e4ee055", size = 2460 },
+    { url = "https://files.pythonhosted.org/packages/cb/e2/017894b65e2abd72a78ef63a1b7e167d96f10be0a861d84ac836c3fe2668/gcmb_publisher-0.5.2-py3-none-any.whl", hash = "sha256:95d8fbf4a35497ce9e935d051a870fc7316a67cfb4f896e4720de289abb5bf61", size = 2680 },
 ]
 
 [[package]]
@@ -115,7 +115,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "gcmb-publisher", specifier = ">=0.4.0" },
+    { name = "gcmb-publisher", specifier = ">=0.5.1" },
     { name = "pytest", specifier = ">=8.4.0" },
     { name = "python-dotenv", specifier = ">=1.1.0" },
     { name = "requests", specifier = ">=2.32.4" },
