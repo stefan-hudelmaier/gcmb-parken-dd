@@ -1,12 +1,17 @@
 # Parken DD
 
-Global Stats:
+## Global Stats:
 
 * Total parking spaces: <Value topic="parken-dd/parken-dd/stats/total"/>
 * Free parking spaces: <Value topic="parken-dd/parken-dd/stats/free"/>
 * Number of lots: <Value topic="parken-dd/parken-dd/stats/lots"/>
 
-List of cities:
+## Source of Data:
+
+The data in this project is fetched from the excellent [Parken DD project](https://parkendd.de)
+which aggregates open parking data from all over Europe. 
+
+## Cities
 
 - [Aachen](./Aachen)
 - [Aarhus](./Aarhus)
