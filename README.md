@@ -2,7 +2,7 @@
 
 This project provides a Python-based adapter for publishing real-time parking data from various European 
 cities. The adapter fetches open parking data (such as available spaces, lot status, and metadata) 
-from the excellent[Parken DD](https://parkendd.de) project and publishes it to [gcmb.io](https://gcmb.io/parken-dd/parken-dd).
+from the excellent [Parken DD](https://parkendd.de) project and publishes it to [gcmb.io](https://gcmb.io/parken-dd/parken-dd).
 
 ## Features
 
