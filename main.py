@@ -70,7 +70,7 @@ class Adapter:
             topic_total = f"{self.base_topic}/{city_key}/total"
             self.mqtt_publisher.send_msg(str(city_free), topic_free, retain=False)
             self.mqtt_publisher.send_msg(str(city_total), topic_total, retain=False)
-            self.logger.debug(f"Published city aggregates: free={city_free}, total={city_total} for {city_key}")
+            self.logger.info(f"Published city aggregates: free={city_free}, total={city_total} for {city_key}")
             global_free += city_free
             global_total += city_total
             global_lots += len(lots)
