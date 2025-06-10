@@ -1,0 +1,62 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta2
+kind: ImageRepository
+metadata:
+  name: gcmb-parken-dd
+  namespace: flux-system
+spec:
+  image: ghcr.io/stefan-hudelmaier/gcmb-parken-dd
+  interval: 5m0s
+---
+apiVersion: image.toolkit.fluxcd.io/v1beta2
+kind: ImagePolicy
+metadata:
+  name: gcmb-parken-dd
+  namespace: flux-system
+spec:
+  imageRepositoryRef:
+    name: gcmb-parken-dd
+  filterTags:
+    pattern: '^main-[a-fA-F0-9]+-(?P<ts>.*)'
+    extract: '$ts'
+  policy:
+    numerical:
+      order: asc
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gcmb-parken-dd
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      app: gcmb-parken-dd
+  template:
+    metadata:
+      labels:
+        app: gcmb-parken-dd
+    spec:
+      containers:
+        - name: gcmb-parken-dd
+          image: ghcr.io/stefan-hudelmaier/gcmb-parken-dd:main-xxx # {"$imagepolicy": "flux-system:gcmb-parken-dd"}
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: MQTT_USERNAME
+              value: parken-dd/parken-dd/data-generator
+            - name: MQTT_CLIENT_ID
+              value: parken-dd/parken-dd/data-generator/pub
+            - name: MQTT_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: gcmb-secrets
+                  key: GCMB_PARKEN_DD_MQTT_PASSWORD
+            - name: MQTT_HOST
+              value: gcmb.io
+            - name: LOG_LEVEL
+              value: INFO
+          resources:
+            requests:
+              memory: 30Mi
+              cpu: 30m
+            limits:
+              memory: 256Mi
