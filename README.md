@@ -1,21 +1,32 @@
-# parken-dd Adapter
+# Parken DD Adapter
 
-This project is a Python-based application for...
+This project provides a Python-based adapter for publishing real-time parking data from various European 
+cities. The adapter fetches open parking data (such as available spaces, lot status, and metadata) 
+from the excellent[Parken DD](https://parkendd.de) project and publishes it to [gcmb.io](https://gcmb.io/parken-dd/parken-dd).
 
 ## Features
 
-* Collect data
-* Publish data to gcmb.io
+* Fetches live parking data from multiple European cities via Parken DD
+* Publishes data to gcmb.io
 
 ## Setup
 
-* Copy `.env.template` to `.env` and configure your environment variables.
+1. Clone this repository.
+2. Copy `.env.template` to `.env` and configure your environment variables (API keys, endpoints, etc).
+3. Install dependencies via `uv sync`.
 
 ## Usage
 
-* Run via `just run`
-* Run tests via `just tests`
+(using [just(https://github.com/casey/just)])
+
+* Run the adapter: `just run`
+* Run tests: `just tests`
 
 ## License
 
 This project is provided under the MIT License.
+
+## Acknowledgements
+
+- Data sourced from the [Parken DD project](https://parkendd.de)
+- Adapter developed for integration with [gcmb.io](https://gcmb.io)
