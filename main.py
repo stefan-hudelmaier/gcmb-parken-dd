@@ -33,6 +33,7 @@ class Adapter:
         cities = self.api_client.get_cities()
         global_free = 0
         global_total = 0
+        global_lots = 0
         for city_key, city_info in cities.items():
             city_name = city_info.get("name", city_key)
             lots = self.api_client.get_city_lots(city_key)
@@ -72,12 +73,15 @@ class Adapter:
             self.logger.debug(f"Published city aggregates: free={city_free}, total={city_total} for {city_key}")
             global_free += city_free
             global_total += city_total
+            global_lots += len(lots)
         # Publish global aggregates
         topic_global_free = f"{self.base_topic}/stats/free"
         topic_global_total = f"{self.base_topic}/stats/total"
+        topic_global_lots = f"{self.base_topic}/stats/lots"
         self.mqtt_publisher.send_msg(str(global_free), topic_global_free, retain=False)
         self.mqtt_publisher.send_msg(str(global_total), topic_global_total, retain=False)
-        self.logger.debug(f"Published global stats: free={global_free}, total={global_total}")
+        self.mqtt_publisher.send_msg(str(global_lots), topic_global_lots, retain=False)
+        self.logger.debug(f"Published global stats: free={global_free}, total={global_total}, lots={global_lots}")
 
 def main():
     GCMB_ORG = os.environ.get('GCMB_ORG', 'parken-dd')

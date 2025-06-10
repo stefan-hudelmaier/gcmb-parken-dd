@@ -68,3 +68,4 @@ def test_publish_global_stats(sample_api_data):
     # Global stats should be sum of all city stats (in this test, only one city)
     assert mqtt_publisher.get_payloads_by_topic(f'{base_topic}/stats/free') == ['7']
     assert mqtt_publisher.get_payloads_by_topic(f'{base_topic}/stats/total') == ['15']
+    assert mqtt_publisher.get_payloads_by_topic(f'{base_topic}/stats/lots') == ['2']
