@@ -1,5 +1,5 @@
 version = 1
-requires-python = ">=3.12"
+requires-python = "/>=3.12"
 
 [[package]]
 name = "certifi"
@@ -115,10 +115,10 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "gcmb-publisher", specifier = ">=0.4.0" },
-    { name = "pytest", specifier = ">=8.4.0" },
-    { name = "python-dotenv", specifier = ">=1.1.0" },
-    { name = "requests", specifier = ">=2.32.4" },
+    { name = "gcmb-publisher", specifier = "/>=0.4.0" },
+    { name = "pytest", specifier = "/>=8.4.0" },
+    { name = "python-dotenv", specifier = "/>=1.1.0" },
+    { name = "requests", specifier = "/>=2.32.4" },
 ]
 
 [[package]]

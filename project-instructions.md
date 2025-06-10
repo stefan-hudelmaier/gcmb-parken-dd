@@ -118,8 +118,8 @@ List of cities:
 
 [Details](./{city})
 
-Total parking spaces: <Topic topic="parkendd/parkendd/{city}/total">
-Free parking spaces: <Topic topic="parkendd/parkendd/{city}/free">
+Total parking spaces: <Value topic="parkendd/parkendd/{city}/total" />
+Free parking spaces: <Value topic="parkendd/parkendd/{city}/free" />
 ```
 
 topic: parkendd/parkendd/{city}: Contents:
@@ -134,7 +134,7 @@ topic: parkendd/parkendd/{city}: Contents:
 
 ### {lot name}
 
-Total parking spaces: <Topic topic="parkendd/parkendd/{city}/{lot_id}/total">
-Free parking spaces: <Topic topic="parkendd/parkendd/{city}/{lot_id}/free">
+Total parking spaces: <Value topic="parkendd/parkendd/{city}/{lot_id}/total"/>
+Free parking spaces: <Value topic="parkendd/parkendd/{city}/{lot_id}/free"/>
 
 ```
