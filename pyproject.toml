@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "gcmb-publisher>=0.5.2",
+    "gcmb-publisher>=0.5.4",
     "pytest>=8.4.0",
     "python-dotenv>=1.1.0",
     "requests>=2.32.4",
