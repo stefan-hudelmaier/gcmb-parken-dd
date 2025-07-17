@@ -1,5 +1,27 @@
 
 # Basel
+
+## Free parking spaces per Lot
+
+<WorldMap>
+  <Marker lat="47.5506254" lon="7.5874932" labelTopic="parken-dd/parken-dd/Basel/baselparkhauselisabethen/free">Elisabethen</Marker>
+  <Marker lat="47.5524554" lon="7.5858936" labelTopic="parken-dd/parken-dd/Basel/baselparkhaussteinen/free">Steinen</Marker>
+  <Marker lat="47.5592347" lon="7.58658" labelTopic="parken-dd/parken-dd/Basel/baselparkhausstorchen/free">Storchen</Marker>
+  <Marker lat="47.5651794" lon="7.6089067" labelTopic="parken-dd/parken-dd/Basel/baselparkhausbadbahnhof/free">Bad. Bahnhof</Marker>
+  <Marker lat="47.5607142" lon="7.594263" labelTopic="parken-dd/parken-dd/Basel/baselparkhausrebgasse/free">Rebgasse</Marker>
+  <Marker lat="47.5468617" lon="7.5929374" labelTopic="parken-dd/parken-dd/Basel/baselparkhauspostbasel/free">Post Basel</Marker>
+  <Marker lat="47.547299" lon="7.5922975" labelTopic="parken-dd/parken-dd/Basel/baselparkhauscentralbahn/free">Centralbahn</Marker>
+  <Marker lat="47.5458851" lon="7.5884556" labelTopic="parken-dd/parken-dd/Basel/baselparkhausbahnhofsued/free">Bahnhof Süd</Marker>
+  <Marker lat="47.5515968" lon="7.593512" labelTopic="parken-dd/parken-dd/Basel/baselparkhausanfos/free">Anfos</Marker>
+  <Marker lat="47.563241" lon="7.602175" labelTopic="parken-dd/parken-dd/Basel/baselparkhausmesse/free">Messe</Marker>
+  <Marker lat="47.5630411" lon="7.5967098" labelTopic="parken-dd/parken-dd/Basel/baselparkhauseurope/free">Europe</Marker>
+  <Marker lat="47.5639644" lon="7.5946604" labelTopic="parken-dd/parken-dd/Basel/baselparkhausclaramatte/free">Claramatte</Marker>
+  <Marker lat="47.561101" lon="7.5824076" labelTopic="parken-dd/parken-dd/Basel/baselparkhauscity/free">City</Marker>
+  <Marker lat="47.5622725" lon="7.5917937" labelTopic="parken-dd/parken-dd/Basel/baselparkhausclarahuus/free">Clarahuus</Marker>
+  <Marker lat="47.5504299" lon="7.5943046" labelTopic="parken-dd/parken-dd/Basel/baselparkhausaeschen/free">Aeschen</Marker>
+  <Marker lat="47.5545146" lon="7.5927014" labelTopic="parken-dd/parken-dd/Basel/baselparkhauskunstmuseum/free">Kunstmuseum</Marker>
+</WorldMap>
+
 ## Lots
 
 ### Elisabethen

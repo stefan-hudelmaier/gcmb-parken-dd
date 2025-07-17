@@ -1,5 +1,20 @@
 
 # Hanau
+
+## Free parking spaces per Lot
+
+<WorldMap>
+  <Marker lat="50.132449" lon="8.916543" labelTopic="parken-dd/parken-dd/Hanau/hanautiefgarageammarkt/free">Tiefgarage Am Markt</Marker>
+  <Marker lat="50.134264" lon="8.913654" labelTopic="parken-dd/parken-dd/Hanau/hanauparkhausamforum/free">Parkhaus Am Forum</Marker>
+  <Marker lat="50.129825" lon="8.914273" labelTopic="parken-dd/parken-dd/Hanau/hanauparkhauskinopolis2/free">Parkhaus Kinopolis 2</Marker>
+  <Marker lat="50.133315" lon="8.922359" labelTopic="parken-dd/parken-dd/Hanau/hanauparkplatzklinikum/free">Parkplatz Klinikum</Marker>
+  <Marker lat="50.138479" lon="8.918148" labelTopic="parken-dd/parken-dd/Hanau/hanautiefgaragecongresspark/free">Tiefgarage Congress Park</Marker>
+  <Marker lat="50.135262" lon="8.91619" labelTopic="parken-dd/parken-dd/Hanau/hanautiefgarageforum/free">Tiefgarage Forum</Marker>
+  <Marker lat="50.129269" lon="8.915746" labelTopic="parken-dd/parken-dd/Hanau/hanauparkhauskinopolis/free">Parkhaus Kinopolis</Marker>
+  <Marker lat="50.13128" lon="8.922597" labelTopic="parken-dd/parken-dd/Hanau/hanauparkhauscitycenter/free">Parkhaus City Center</Marker>
+  <Marker lat="50.132539" lon="8.908575" labelTopic="parken-dd/parken-dd/Hanau/hanauparkhausgloriapalais/free">Parkhaus Gloria Palais</Marker>
+</WorldMap>
+
 ## Lots
 
 ### Tiefgarage Am Markt

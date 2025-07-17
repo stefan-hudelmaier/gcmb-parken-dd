@@ -1,5 +1,28 @@
 
 # Luebeck
+
+## Free parking spaces per Lot
+
+<WorldMap>
+  <Marker lat="53.960927" lon="10.880637" labelTopic="parken-dd/parken-dd/Luebeck/luebeckamleuchtturm/free">Am Leuchtturm</Marker>
+  <Marker lat="53.960965" lon="10.877633" labelTopic="parken-dd/parken-dd/Luebeck/luebeckleuchtenfeld/free">Leuchtenfeld</Marker>
+  <Marker lat="53.975518" lon="10.877064" labelTopic="parken-dd/parken-dd/Luebeck/luebeckkowitzberg/free">Kowitzberg</Marker>
+  <Marker lat="53.970161" lon="10.880241" labelTopic="parken-dd/parken-dd/Luebeck/luebeckbackbord/free">Backbord</Marker>
+  <Marker lat="53.958396" lon="10.863745" labelTopic="parken-dd/parken-dd/Luebeck/luebeckhafenbahnhof/free">Hafenbahnhof</Marker>
+  <Marker lat="53.870015" lon="10.698406" labelTopic="parken-dd/parken-dd/Luebeck/luebeckfalkenstrasse/free">Falkenstrasse</Marker>
+  <Marker lat="53.872994522821855" lon="10.692285597324371" labelTopic="parken-dd/parken-dd/Luebeck/luebeckamburgtor/free">Am Burgtor</Marker>
+  <Marker lat="53.865371629250554" lon="10.683571100234985" labelTopic="parken-dd/parken-dd/Luebeck/luebeckmitte/free">Mitte</Marker>
+  <Marker lat="53.966037" lon="10.873723" labelTopic="parken-dd/parken-dd/Luebeck/luebeckgodewind/free">Godewind</Marker>
+  <Marker lat="53.86463" lon="10.685786" labelTopic="parken-dd/parken-dd/Luebeck/luebeckhaerdercenter/free">Haerder-Center</Marker>
+  <Marker lat="53.866943767066466" lon="10.672831535339355" labelTopic="parken-dd/parken-dd/Luebeck/luebecklindenarcaden/free">Linden Arcaden</Marker>
+  <Marker lat="53.871582" lon="10.679384" labelTopic="parken-dd/parken-dd/Luebeck/luebecklastadiep5/free">Lastadie P5</Marker>
+  <Marker lat="53.867886" lon="10.677713" labelTopic="parken-dd/parken-dd/Luebeck/luebeckradissonhotel/free">Radisson Hotel</Marker>
+  <Marker lat="53.867886" lon="10.677713" labelTopic="parken-dd/parken-dd/Luebeck/luebeckradissonhotel/free">Radisson Hotel</Marker>
+  <Marker lat="53.864537" lon="10.678493" labelTopic="parken-dd/parken-dd/Luebeck/luebeckamholstentor/free">Am Holstentor</Marker>
+  <Marker lat="53.871658" lon="10.679092" labelTopic="parken-dd/parken-dd/Luebeck/luebecklastadiep4/free">Lastadie P4</Marker>
+  <Marker lat="53.871794" lon="10.679573" labelTopic="parken-dd/parken-dd/Luebeck/luebecklastadiep3/free">Lastadie P3</Marker>
+</WorldMap>
+
 ## Lots
 
 ### Maritim

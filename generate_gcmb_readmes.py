@@ -36,7 +36,9 @@ List of cities:
 '''
 
 CITY_LIST_ITEM_TEMPLATE = '''
-## {city}[Details](./{city})
+## {city}
+
+[Details](./{city})
 
 * Total parking spaces: <Value topic="{base_topic}/{city}/total"/>
 * Free parking spaces: <Value topic="{base_topic}/{city}/free"/>
@@ -56,7 +58,7 @@ def generate_gcmb_readmes(base_topic=None):
         proj = os.environ.get('GCMB_PROJECT', 'parken-dd')
         base_topic = f"{org}/{proj}"
     cities = api_client.get_cities()
-    cities = {k: v for k, v in cities.items() if k == 'Zuerich'}
+    # cities = {k: v for k, v in cities.items() if k == 'Zuerich'}
     cities_md = []
     city_markers_md = []
     for city_key, city_info in cities.items():

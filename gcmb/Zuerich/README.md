@@ -1,6 +1,8 @@
 
 # Zuerich
 
+## Free parking spaces per Lot
+
 <WorldMap>
   <Marker lat="47.414848" lon="8.540748" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausaccu/free">Accu</Marker>
   <Marker lat="47.379458" lon="8.509675" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausalbisriederplatz/free">Albisriederplatz</Marker>
