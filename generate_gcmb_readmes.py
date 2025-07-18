@@ -44,8 +44,8 @@ CITY_LIST_ITEM_TEMPLATE = '''
 * Free parking spaces: <Value topic="{base_topic}/{city}/free"/>
 '''
 
-CITY_MARKER_TEMPLATE = '  <Marker lat="{lat}" lon="{lon}" labelTopic="{label_topic}">{city}</Marker>'
-LOT_MARKER_TEMPLATE = '  <Marker lat="{lat}" lon="{lon}" labelTopic="{label_topic}">{lot}</Marker>'
+MAP_MARKER_TEMPLATE = '  <Marker lat="{lat}" lon="{lon}" labelTopic="{label_topic}" linkTopic="{link_topic}">{city}</Marker>'
+LOT_MARKER_TEMPLATE = '  <Marker lat="{lat}" lon="{lon}" labelTopic="{label_topic}" linkTopic="{link_topic}">{lot}</Marker>'
 
 def ensure_dir(path):
     if not os.path.exists(path):
@@ -85,11 +85,11 @@ def generate_gcmb_readmes(base_topic=None):
             lat, lon = lot.get('coords', {}).get('lat'), lot.get('coords', {}).get('lng')
             if lat is None or lon is None:
                 continue
-            lot_markers_md.append(LOT_MARKER_TEMPLATE.format(
-                lot=lot_name,
+            lot_markers_md.append(MAP_MARKER_TEMPLATE.format(
                 lat=lat,
                 lon=lon,
-                label_topic=f"{base_topic}/{city_key}/{lot_id}/free"
+                label_topic=f"{base_topic}/{city_key}/{lot_id}/free",
+                link_topic=f"{base_topic}/{city_key}/{lot_id}"
             ))
         city_md = CITY_README_TEMPLATE.format(city=city_key, lots='\n'.join(lots_md), lot_markers='\n'.join(lot_markers_md))
         with open(os.path.join(city_dir, 'README.md'), 'w', encoding='utf-8') as f:
@@ -97,11 +97,12 @@ def generate_gcmb_readmes(base_topic=None):
         cities_md.append(CITY_LIST_ITEM_TEMPLATE.format(
             city=city_key,
             base_topic=base_topic))
-        city_markers_md.append(CITY_MARKER_TEMPLATE.format(
-            city=city_key,
+        city_markers_md.append(MAP_MARKER_TEMPLATE.format(
             lat=lat,
             lon=lon,
-            label_topic=f"{base_topic}/{city_key}/free"))
+            label_topic=f"{base_topic}/{city_key}/free",
+            link_topic=f"{base_topic}/{city_key}"
+        ))
 
     with open(os.path.join(gcmb_dir, 'README.md'), 'w', encoding='utf-8') as f:
         f.write(TOP_LEVEL_README_TEMPLATE.format(cities='\n'.join(cities_md), city_markers='\n'.join(city_markers_md)))
