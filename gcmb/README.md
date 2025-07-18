@@ -2,34 +2,34 @@
 # Parken DD
 
 <WorldMap>
-  <Marker lat="50.774842" lon="6.083899" labelTopic="parken-dd/parken-dd/Aachen/free">Aachen</Marker>
-  <Marker lat="56.15669" lon="10.204983" labelTopic="parken-dd/parken-dd/Aarhus/free">Aarhus</Marker>
-  <Marker lat="47.5545146" lon="7.5927014" labelTopic="parken-dd/parken-dd/Basel/free">Basel</Marker>
-  <Marker lat="50.73438" lon="7.09548" labelTopic="parken-dd/parken-dd/Bonn/free">Bonn</Marker>
-  <Marker lat="51.507092" lon="7.460256" labelTopic="parken-dd/parken-dd/Dortmund/free">Dortmund</Marker>
-  <Marker lat="51.1401712" lon="13.8012814" labelTopic="parken-dd/parken-dd/Dresden/free">Dresden</Marker>
-  <Marker lat="47.99343129043488" lon="7.847403108579805" labelTopic="parken-dd/parken-dd/Freiburg/free">Freiburg</Marker>
-  <Marker lat="53.55323046491872" lon="9.933274373392502" labelTopic="parken-dd/parken-dd/Hamburg/free">Hamburg</Marker>
-  <Marker lat="50.132539" lon="8.908575" labelTopic="parken-dd/parken-dd/Hanau/free">Hanau</Marker>
-  <Marker lat="49.418319" lon="8.675042" labelTopic="parken-dd/parken-dd/Heidelberg/free">Heidelberg</Marker>
-  <Marker lat="49.139792" lon="9.220889" labelTopic="parken-dd/parken-dd/Heilbronn/free">Heilbronn</Marker>
-  <Marker lat="48.76281232342508" lon="11.427175998687744" labelTopic="parken-dd/parken-dd/Ingolstadt/free">Ingolstadt</Marker>
-  <Marker lat="49.43580175486678" lon="7.770386338233947" labelTopic="parken-dd/parken-dd/Kaiserslautern/free">Kaiserslautern</Marker>
-  <Marker lat="49.013774" lon="8.404425" labelTopic="parken-dd/parken-dd/Karlsruhe/free">Karlsruhe</Marker>
-  <Marker lat="50.94454487" lon="6.96255079" labelTopic="parken-dd/parken-dd/Koeln/free">Koeln</Marker>
-  <Marker lat="47.67272065604162" lon="9.183433055877686" labelTopic="parken-dd/parken-dd/Konstanz/free">Konstanz</Marker>
-  <Marker lat="50.384046" lon="8.056576" labelTopic="parken-dd/parken-dd/Limburg/free">Limburg</Marker>
-  <Marker lat="53.871794" lon="10.679573" labelTopic="parken-dd/parken-dd/Luebeck/free">Luebeck</Marker>
-  <Marker lat="52.15441" lon="11.665213" labelTopic="parken-dd/parken-dd/Magdeburg/free">Magdeburg</Marker>
-  <Marker lat="49.471022" lon="8.523256" labelTopic="parken-dd/parken-dd/Mannheim/free">Mannheim</Marker>
-  <Marker lat="51.949828" lon="7.635975" labelTopic="parken-dd/parken-dd/Muenster/free">Muenster</Marker>
-  <Marker lat="49.445693" lon="11.072199" labelTopic="parken-dd/parken-dd/Nuernberg/free">Nuernberg</Marker>
-  <Marker lat="53.141114" lon="8.22606" labelTopic="parken-dd/parken-dd/Oldenburg/free">Oldenburg</Marker>
-  <Marker lat="49.01266090091584" lon="12.096526622772217" labelTopic="parken-dd/parken-dd/Regensburg/free">Regensburg</Marker>
-  <Marker lat="47.852733" lon="12.113999" labelTopic="parken-dd/parken-dd/Rosenheim/free">Rosenheim</Marker>
-  <Marker lat="48.40093" lon="9.99491" labelTopic="parken-dd/parken-dd/Ulm/free">Ulm</Marker>
-  <Marker lat="50.07005" lon="8.24156" labelTopic="parken-dd/parken-dd/Wiesbaden/free">Wiesbaden</Marker>
-  <Marker lat="47.37479042" lon="8.55141073" labelTopic="parken-dd/parken-dd/Zuerich/free">Zuerich</Marker>
+  <Marker lat="50.774842" lon="6.083899" labelTopic="parken-dd/parken-dd/Aachen/free" linkTopic="parken-dd/parken-dd/Aachen" />
+  <Marker lat="56.153005" lon="10.203201" labelTopic="parken-dd/parken-dd/Aarhus/free" linkTopic="parken-dd/parken-dd/Aarhus" />
+  <Marker lat="47.5595986" lon="7.5885761" labelTopic="parken-dd/parken-dd/Basel/free" linkTopic="parken-dd/parken-dd/Basel" />
+  <Marker lat="50.73438" lon="7.09548" labelTopic="parken-dd/parken-dd/Bonn/free" linkTopic="parken-dd/parken-dd/Bonn" />
+  <Marker lat="51.51148" lon="7.465229" labelTopic="parken-dd/parken-dd/Dortmund/free" linkTopic="parken-dd/parken-dd/Dortmund" />
+  <Marker lat="51.05089" lon="13.73832" labelTopic="parken-dd/parken-dd/Dresden/free" linkTopic="parken-dd/parken-dd/Dresden" />
+  <Marker lat="47.9946843" lon="7.8474426" labelTopic="parken-dd/parken-dd/Freiburg/free" linkTopic="parken-dd/parken-dd/Freiburg" />
+  <Marker lat="53.5558" lon="9.9957" labelTopic="parken-dd/parken-dd/Hamburg/free" linkTopic="parken-dd/parken-dd/Hamburg" />
+  <Marker lat="50.133739" lon="8.917053" labelTopic="parken-dd/parken-dd/Hanau/free" linkTopic="parken-dd/parken-dd/Hanau" />
+  <Marker lat="49.41212" lon="8.71064" labelTopic="parken-dd/parken-dd/Heidelberg/free" linkTopic="parken-dd/parken-dd/Heidelberg" />
+  <Marker lat="49.142525" lon="9.218716" labelTopic="parken-dd/parken-dd/Heilbronn/free" linkTopic="parken-dd/parken-dd/Heilbronn" />
+  <Marker lat="48.76508" lon="11.42372" labelTopic="parken-dd/parken-dd/Ingolstadt/free" linkTopic="parken-dd/parken-dd/Ingolstadt" />
+  <Marker lat="49.44435650387989" lon="7.7664756774902335" labelTopic="parken-dd/parken-dd/Kaiserslautern/free" linkTopic="parken-dd/parken-dd/Kaiserslautern" />
+  <Marker lat="49.013774" lon="8.404425" labelTopic="parken-dd/parken-dd/Karlsruhe/free" linkTopic="parken-dd/parken-dd/Karlsruhe" />
+  <Marker lat="50.941387" lon="6.958249" labelTopic="parken-dd/parken-dd/Koeln/free" linkTopic="parken-dd/parken-dd/Koeln" />
+  <Marker lat="47.66033" lon="9.17582" labelTopic="parken-dd/parken-dd/Konstanz/free" linkTopic="parken-dd/parken-dd/Konstanz" />
+  <Marker lat="50.388856" lon="8.063907" labelTopic="parken-dd/parken-dd/Limburg/free" linkTopic="parken-dd/parken-dd/Limburg" />
+  <Marker lat="53.86893" lon="10.68729" labelTopic="parken-dd/parken-dd/Luebeck/free" linkTopic="parken-dd/parken-dd/Luebeck" />
+  <Marker lat="52.131692" lon="11.639001" labelTopic="parken-dd/parken-dd/Magdeburg/free" linkTopic="parken-dd/parken-dd/Magdeburg" />
+  <Marker lat="49.489781" lon="8.462498" labelTopic="parken-dd/parken-dd/Mannheim/free" linkTopic="parken-dd/parken-dd/Mannheim" />
+  <Marker lat="51.96236" lon="7.62571" labelTopic="parken-dd/parken-dd/Muenster/free" linkTopic="parken-dd/parken-dd/Muenster" />
+  <Marker lat="49.455277" lon="11.077134" labelTopic="parken-dd/parken-dd/Nuernberg/free" linkTopic="parken-dd/parken-dd/Nuernberg" />
+  <Marker lat="53.14118" lon="8.21467" labelTopic="parken-dd/parken-dd/Oldenburg/free" linkTopic="parken-dd/parken-dd/Oldenburg" />
+  <Marker lat="49.020282" lon="12.094527" labelTopic="parken-dd/parken-dd/Regensburg/free" linkTopic="parken-dd/parken-dd/Regensburg" />
+  <Marker lat="47.856756" lon="12.128548" labelTopic="parken-dd/parken-dd/Rosenheim/free" linkTopic="parken-dd/parken-dd/Rosenheim" />
+  <Marker lat="48.39851" lon="9.99109" labelTopic="parken-dd/parken-dd/Ulm/free" linkTopic="parken-dd/parken-dd/Ulm" />
+  <Marker lat="50.082" lon="8.24175" labelTopic="parken-dd/parken-dd/Wiesbaden/free" linkTopic="parken-dd/parken-dd/Wiesbaden" />
+  <Marker lat="47.36667" lon="8.55" labelTopic="parken-dd/parken-dd/Zuerich/free" linkTopic="parken-dd/parken-dd/Zuerich" />
 </WorldMap>
 
 List of cities:

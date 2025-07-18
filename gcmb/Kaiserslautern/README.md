@@ -4,16 +4,16 @@
 ## Free parking spaces per Lot
 
 <WorldMap>
-  <Marker lat="49.44166030571838" lon="7.772792279720306" labelTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphlutrinastrasse/free">PH Lutrinastraße</Marker>
-  <Marker lat="49.44463553274022" lon="7.77245968580246" labelTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphstiftsplatz/free">PH Stiftsplatz</Marker>
-  <Marker lat="49.44643523073805" lon="7.763890027999877" labelTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphmeuthstrassebesucher/free">PH Meuthstraße Besucher</Marker>
-  <Marker lat="49.44693746024965" lon="7.764085829257964" labelTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphmeuthstrasseangestellte/free">PH Meuthstraße Angestellte</Marker>
-  <Marker lat="49.446316648019256" lon="7.769994735717773" labelTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphpfalztheater/free">PH Pfalztheater</Marker>
-  <Marker lat="49.446974080950305" lon="7.7724650502204895" labelTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphaltstadt/free">PH Altstadt</Marker>
-  <Marker lat="49.443631021411605" lon="7.764659821987151" labelTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphkinlautern/free">PH K in Lautern</Marker>
-  <Marker lat="49.442239320669785" lon="7.766937017440797" labelTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphcentral/free">PH Central</Marker>
-  <Marker lat="49.44309736639787" lon="7.767012119293212" labelTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphcity/free">PH City</Marker>
-  <Marker lat="49.43580175486678" lon="7.770386338233947" labelTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphhauptbahnhof/free">PH Hauptbahnhof</Marker>
+  <Marker lat="49.44166030571838" lon="7.772792279720306" labelTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphlutrinastrasse/free" linkTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphlutrinastrasse" />
+  <Marker lat="49.44463553274022" lon="7.77245968580246" labelTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphstiftsplatz/free" linkTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphstiftsplatz" />
+  <Marker lat="49.44643523073805" lon="7.763890027999877" labelTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphmeuthstrassebesucher/free" linkTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphmeuthstrassebesucher" />
+  <Marker lat="49.44693746024965" lon="7.764085829257964" labelTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphmeuthstrasseangestellte/free" linkTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphmeuthstrasseangestellte" />
+  <Marker lat="49.446316648019256" lon="7.769994735717773" labelTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphpfalztheater/free" linkTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphpfalztheater" />
+  <Marker lat="49.446974080950305" lon="7.7724650502204895" labelTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphaltstadt/free" linkTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphaltstadt" />
+  <Marker lat="49.443631021411605" lon="7.764659821987151" labelTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphkinlautern/free" linkTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphkinlautern" />
+  <Marker lat="49.442239320669785" lon="7.766937017440797" labelTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphcentral/free" linkTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphcentral" />
+  <Marker lat="49.44309736639787" lon="7.767012119293212" labelTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphcity/free" linkTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphcity" />
+  <Marker lat="49.43580175486678" lon="7.770386338233947" labelTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphhauptbahnhof/free" linkTopic="parken-dd/parken-dd/Kaiserslautern/kaiserslauternphhauptbahnhof" />
 </WorldMap>
 
 ## Lots

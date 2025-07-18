@@ -4,37 +4,37 @@
 ## Free parking spaces per Lot
 
 <WorldMap>
-  <Marker lat="47.414848" lon="8.540748" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausaccu/free">Accu</Marker>
-  <Marker lat="47.379458" lon="8.509675" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausalbisriederplatz/free">Albisriederplatz</Marker>
-  <Marker lat="47.367417" lon="8.535761" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausbleicherweg/free">Bleicherweg</Marker>
-  <Marker lat="47.412805" lon="8.540263" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhauscentereleven/free">Center Eleven</Marker>
-  <Marker lat="47.374211" lon="8.533806" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhauscityparking/free">City Parking</Marker>
-  <Marker lat="47.410876" lon="8.540662" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhauscityport/free">Cityport</Marker>
-  <Marker lat="47.407194" lon="8.550214" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausdorflinde/free">Dorflinde</Marker>
-  <Marker lat="47.360644" lon="8.55344" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausfeldegg/free">Feldegg</Marker>
-  <Marker lat="47.375773" lon="8.537618" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausglobus/free">Globus</Marker>
-  <Marker lat="47.380354" lon="8.510323" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhaushardauii/free">Hardau II</Marker>
-  <Marker lat="47.381218" lon="8.537886" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhaushauptbahnhof/free">Hauptbahnhof</Marker>
-  <Marker lat="47.368666" lon="8.547632" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhaushohepromenade/free">Hohe Promenade</Marker>
-  <Marker lat="47.373847" lon="8.536227" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausjelmoli/free">Jelmoli</Marker>
-  <Marker lat="47.413423" lon="8.543973" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausjungholz/free">Jungholz</Marker>
-  <Marker lat="47.414062" lon="8.539274" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausmaxbillplatz/free">Max-Bill-Platz</Marker>
-  <Marker lat="47.413568" lon="8.553929" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausmessezuerichag/free">Messe Zürich AG</Marker>
-  <Marker lat="47.411839" lon="8.547353" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausnordhaus/free">Nordhaus</Marker>
-  <Marker lat="47.413199" lon="8.536066" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausoctavo/free">Octavo</Marker>
-  <Marker lat="47.391929" lon="8.511443" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhauspwest/free">P West</Marker>
-  <Marker lat="47.36586" lon="8.536077" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausparkhyatt/free">Park Hyatt</Marker>
-  <Marker lat="47.412654" lon="8.539574" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausparkside/free">Parkside</Marker>
-  <Marker lat="47.38715" lon="8.51633" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhauspfingstweid/free">Pfingstweid</Marker>
-  <Marker lat="47.38699" lon="8.539633" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausstampfenbach/free">Stampfenbach</Marker>
-  <Marker lat="47.372177" lon="8.535883" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhaustalgarten/free">Talgarten</Marker>
-  <Marker lat="47.37878088" lon="8.54970217" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhaususznord/free">USZ Nord</Marker>
-  <Marker lat="47.397478" lon="8.547235" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausuniirchel/free">Uni Irchel</Marker>
-  <Marker lat="47.374112" lon="8.540615" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausurania/free">Urania</Marker>
-  <Marker lat="47.361727" lon="8.547986" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausutoquai/free">Utoquai</Marker>
-  <Marker lat="47.4105" lon="8.545035" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhauszueri11shopping/free">Züri 11 Shopping</Marker>
-  <Marker lat="47.356073" lon="8.553629" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhauszuerichhorn/free">Zürichhorn</Marker>
-  <Marker lat="47.37479042" lon="8.55141073" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkplatzuszsued/free">USZ Süd</Marker>
+  <Marker lat="47.414848" lon="8.540748" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausaccu/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausaccu" />
+  <Marker lat="47.379458" lon="8.509675" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausalbisriederplatz/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausalbisriederplatz" />
+  <Marker lat="47.367417" lon="8.535761" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausbleicherweg/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausbleicherweg" />
+  <Marker lat="47.412805" lon="8.540263" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhauscentereleven/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhauscentereleven" />
+  <Marker lat="47.374211" lon="8.533806" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhauscityparking/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhauscityparking" />
+  <Marker lat="47.410876" lon="8.540662" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhauscityport/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhauscityport" />
+  <Marker lat="47.407194" lon="8.550214" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausdorflinde/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausdorflinde" />
+  <Marker lat="47.360644" lon="8.55344" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausfeldegg/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausfeldegg" />
+  <Marker lat="47.375773" lon="8.537618" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausglobus/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausglobus" />
+  <Marker lat="47.380354" lon="8.510323" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhaushardauii/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhaushardauii" />
+  <Marker lat="47.381218" lon="8.537886" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhaushauptbahnhof/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhaushauptbahnhof" />
+  <Marker lat="47.368666" lon="8.547632" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhaushohepromenade/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhaushohepromenade" />
+  <Marker lat="47.373847" lon="8.536227" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausjelmoli/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausjelmoli" />
+  <Marker lat="47.413423" lon="8.543973" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausjungholz/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausjungholz" />
+  <Marker lat="47.414062" lon="8.539274" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausmaxbillplatz/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausmaxbillplatz" />
+  <Marker lat="47.413568" lon="8.553929" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausmessezuerichag/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausmessezuerichag" />
+  <Marker lat="47.411839" lon="8.547353" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausnordhaus/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausnordhaus" />
+  <Marker lat="47.413199" lon="8.536066" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausoctavo/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausoctavo" />
+  <Marker lat="47.391929" lon="8.511443" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhauspwest/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhauspwest" />
+  <Marker lat="47.36586" lon="8.536077" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausparkhyatt/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausparkhyatt" />
+  <Marker lat="47.412654" lon="8.539574" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausparkside/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausparkside" />
+  <Marker lat="47.38715" lon="8.51633" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhauspfingstweid/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhauspfingstweid" />
+  <Marker lat="47.38699" lon="8.539633" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausstampfenbach/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausstampfenbach" />
+  <Marker lat="47.372177" lon="8.535883" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhaustalgarten/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhaustalgarten" />
+  <Marker lat="47.37878088" lon="8.54970217" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhaususznord/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhaususznord" />
+  <Marker lat="47.397478" lon="8.547235" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausuniirchel/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausuniirchel" />
+  <Marker lat="47.374112" lon="8.540615" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausurania/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausurania" />
+  <Marker lat="47.361727" lon="8.547986" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausutoquai/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhausutoquai" />
+  <Marker lat="47.4105" lon="8.545035" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhauszueri11shopping/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhauszueri11shopping" />
+  <Marker lat="47.356073" lon="8.553629" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkhauszuerichhorn/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkhauszuerichhorn" />
+  <Marker lat="47.37479042" lon="8.55141073" labelTopic="parken-dd/parken-dd/Zuerich/zuerichparkplatzuszsued/free" linkTopic="parken-dd/parken-dd/Zuerich/zuerichparkplatzuszsued" />
 </WorldMap>
 
 ## Lots

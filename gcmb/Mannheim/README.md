@@ -4,24 +4,24 @@
 ## Free parking spaces per Lot
 
 <WorldMap>
-  <Marker lat="49.486913" lon="8.464307" labelTopic="parken-dd/parken-dd/Mannheim/mannheimc1hauptverwaltungmpbparkhaus/free">C1 Hauptverwaltung MPB, Parkhaus</Marker>
-  <Marker lat="49.49114" lon="8.478208" labelTopic="parken-dd/parken-dd/Mannheim/mannheimcollinicentermuldeparkplatz/free">Collini-Center Mulde, Parkplatz</Marker>
-  <Marker lat="49.487788" lon="8.463539" labelTopic="parken-dd/parken-dd/Mannheim/mannheimd3tiefgarage/free">D3, Tiefgarage</Marker>
-  <Marker lat="49.488409" lon="8.462011" labelTopic="parken-dd/parken-dd/Mannheim/mannheimd5reissmuseumtiefgarage/free">D5 Reiß-Museum, Tiefgarage</Marker>
-  <Marker lat="49.490179" lon="8.467301" labelTopic="parken-dd/parken-dd/Mannheim/mannheimg1marktplatztiefgarage/free">G1 Marktplatz, Tiefgarage</Marker>
-  <Marker lat="49.492566" lon="8.463997" labelTopic="parken-dd/parken-dd/Mannheim/mannheimh6tiefgarage/free">H6, Tiefgarage</Marker>
-  <Marker lat="49.480934" lon="8.471006" labelTopic="parken-dd/parken-dd/Mannheim/mannheimhauptbahnhofp1tiefgarage/free">Hauptbahnhof P1 , Tiefgarage</Marker>
-  <Marker lat="49.477885" lon="8.473586" labelTopic="parken-dd/parken-dd/Mannheim/mannheimhauptbahnhofp2parkhaus/free">Hauptbahnhof P2, Parkhaus</Marker>
-  <Marker lat="49.477216" lon="8.469407" labelTopic="parken-dd/parken-dd/Mannheim/mannheimhauptbahnhofp5parkhaus/free">Hauptbahnhof P5, Parkhaus</Marker>
-  <Marker lat="49.490103" lon="8.490109" labelTopic="parken-dd/parken-dd/Mannheim/mannheimklinikumtiefgarage/free">Klinikum, Tiefgarage</Marker>
-  <Marker lat="49.484652" lon="8.47606" labelTopic="parken-dd/parken-dd/Mannheim/mannheimkunsthalletiefgarage/free">Kunsthalle, Tiefgarage</Marker>
-  <Marker lat="49.484467" lon="8.466736" labelTopic="parken-dd/parken-dd/Mannheim/mannheimm4aparkplatz/free">M4a, Parkplatz</Marker>
-  <Marker lat="49.485872" lon="8.464604" labelTopic="parken-dd/parken-dd/Mannheim/mannheimn1n2stadthausparkhaus/free">N1/N2 Stadthaus, Parkhaus</Marker>
-  <Marker lat="49.484761" lon="8.470224" labelTopic="parken-dd/parken-dd/Mannheim/mannheimn6komforthaus/free">N6 Komforthaus</Marker>
-  <Marker lat="49.484904" lon="8.469266" labelTopic="parken-dd/parken-dd/Mannheim/mannheimn6standardhaus/free">N6 Standardhaus</Marker>
-  <Marker lat="49.491568" lon="8.471876" labelTopic="parken-dd/parken-dd/Mannheim/mannheimu2tiefgarage/free">U2, Tiefgarage</Marker>
-  <Marker lat="49.461795" lon="8.517009" labelTopic="parken-dd/parken-dd/Mannheim/mannheimsaparenap2parkhaus/free">SAP Arena P2, Parkhaus</Marker>
-  <Marker lat="49.471022" lon="8.523256" labelTopic="parken-dd/parken-dd/Mannheim/mannheimsaparenap6p8parkplatz/free">SAP Arena P6-P8, Parkplatz</Marker>
+  <Marker lat="49.486913" lon="8.464307" labelTopic="parken-dd/parken-dd/Mannheim/mannheimc1hauptverwaltungmpbparkhaus/free" linkTopic="parken-dd/parken-dd/Mannheim/mannheimc1hauptverwaltungmpbparkhaus" />
+  <Marker lat="49.49114" lon="8.478208" labelTopic="parken-dd/parken-dd/Mannheim/mannheimcollinicentermuldeparkplatz/free" linkTopic="parken-dd/parken-dd/Mannheim/mannheimcollinicentermuldeparkplatz" />
+  <Marker lat="49.487788" lon="8.463539" labelTopic="parken-dd/parken-dd/Mannheim/mannheimd3tiefgarage/free" linkTopic="parken-dd/parken-dd/Mannheim/mannheimd3tiefgarage" />
+  <Marker lat="49.488409" lon="8.462011" labelTopic="parken-dd/parken-dd/Mannheim/mannheimd5reissmuseumtiefgarage/free" linkTopic="parken-dd/parken-dd/Mannheim/mannheimd5reissmuseumtiefgarage" />
+  <Marker lat="49.490179" lon="8.467301" labelTopic="parken-dd/parken-dd/Mannheim/mannheimg1marktplatztiefgarage/free" linkTopic="parken-dd/parken-dd/Mannheim/mannheimg1marktplatztiefgarage" />
+  <Marker lat="49.492566" lon="8.463997" labelTopic="parken-dd/parken-dd/Mannheim/mannheimh6tiefgarage/free" linkTopic="parken-dd/parken-dd/Mannheim/mannheimh6tiefgarage" />
+  <Marker lat="49.480934" lon="8.471006" labelTopic="parken-dd/parken-dd/Mannheim/mannheimhauptbahnhofp1tiefgarage/free" linkTopic="parken-dd/parken-dd/Mannheim/mannheimhauptbahnhofp1tiefgarage" />
+  <Marker lat="49.477885" lon="8.473586" labelTopic="parken-dd/parken-dd/Mannheim/mannheimhauptbahnhofp2parkhaus/free" linkTopic="parken-dd/parken-dd/Mannheim/mannheimhauptbahnhofp2parkhaus" />
+  <Marker lat="49.477216" lon="8.469407" labelTopic="parken-dd/parken-dd/Mannheim/mannheimhauptbahnhofp5parkhaus/free" linkTopic="parken-dd/parken-dd/Mannheim/mannheimhauptbahnhofp5parkhaus" />
+  <Marker lat="49.490103" lon="8.490109" labelTopic="parken-dd/parken-dd/Mannheim/mannheimklinikumtiefgarage/free" linkTopic="parken-dd/parken-dd/Mannheim/mannheimklinikumtiefgarage" />
+  <Marker lat="49.484652" lon="8.47606" labelTopic="parken-dd/parken-dd/Mannheim/mannheimkunsthalletiefgarage/free" linkTopic="parken-dd/parken-dd/Mannheim/mannheimkunsthalletiefgarage" />
+  <Marker lat="49.484467" lon="8.466736" labelTopic="parken-dd/parken-dd/Mannheim/mannheimm4aparkplatz/free" linkTopic="parken-dd/parken-dd/Mannheim/mannheimm4aparkplatz" />
+  <Marker lat="49.485872" lon="8.464604" labelTopic="parken-dd/parken-dd/Mannheim/mannheimn1n2stadthausparkhaus/free" linkTopic="parken-dd/parken-dd/Mannheim/mannheimn1n2stadthausparkhaus" />
+  <Marker lat="49.484761" lon="8.470224" labelTopic="parken-dd/parken-dd/Mannheim/mannheimn6komforthaus/free" linkTopic="parken-dd/parken-dd/Mannheim/mannheimn6komforthaus" />
+  <Marker lat="49.484904" lon="8.469266" labelTopic="parken-dd/parken-dd/Mannheim/mannheimn6standardhaus/free" linkTopic="parken-dd/parken-dd/Mannheim/mannheimn6standardhaus" />
+  <Marker lat="49.491568" lon="8.471876" labelTopic="parken-dd/parken-dd/Mannheim/mannheimu2tiefgarage/free" linkTopic="parken-dd/parken-dd/Mannheim/mannheimu2tiefgarage" />
+  <Marker lat="49.461795" lon="8.517009" labelTopic="parken-dd/parken-dd/Mannheim/mannheimsaparenap2parkhaus/free" linkTopic="parken-dd/parken-dd/Mannheim/mannheimsaparenap2parkhaus" />
+  <Marker lat="49.471022" lon="8.523256" labelTopic="parken-dd/parken-dd/Mannheim/mannheimsaparenap6p8parkplatz/free" linkTopic="parken-dd/parken-dd/Mannheim/mannheimsaparenap6p8parkplatz" />
 </WorldMap>
 
 ## Lots
